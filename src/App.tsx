@@ -19,7 +19,7 @@ const App = () => {
       webViewRef.current.goBack();
       return true;
     }
-    return false;
+    return false; 
   }, [canGoBack]);
 
   useEffect(() => {
