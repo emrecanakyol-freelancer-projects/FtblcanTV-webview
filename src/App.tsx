@@ -5,7 +5,6 @@ import { SafeAreaView, RefreshControl, ScrollView, BackHandler, Alert } from 're
 import { WebView } from 'react-native-webview';
 import SplashScreen from 'react-native-splash-screen';
 
-
 const App = () => {
   //Pull To Down Refresh
   const [refreshing, setRefreshing] = useState(false);
@@ -52,7 +51,7 @@ const App = () => {
           />
         }>
         <WebView
-          source={{ uri: 'https://ftblcantv5.xyz/' }}
+          source={{ uri: 'https://ftblcantv5.xyz/app/' }}
           onLoadProgress={(event) => setCanGoBack(event.nativeEvent.canGoBack)}
           ref={webViewRef}
           originWhitelist={['*']}
