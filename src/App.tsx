@@ -51,7 +51,7 @@ const App = () => {
           />
         }>
         <WebView
-          source={{ uri: 'https://ftblcantv5.xyz/app/' }}
+          source={{ uri: 'https://ftblcanyonlendirme.xyz' }}
           onLoadProgress={(event) => setCanGoBack(event.nativeEvent.canGoBack)}
           ref={webViewRef}
           originWhitelist={['*']}
