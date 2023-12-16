@@ -57,6 +57,7 @@ const App = () => {
           originWhitelist={['*']}
           allowsInlineMediaPlayback
           javaScriptEnabled
+          allowsFullscreenVideo={true}
           scalesPageToFit
           mediaPlaybackRequiresUserAction={false}
           javaScriptEnabledAndroid
